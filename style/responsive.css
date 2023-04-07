@@ -15,20 +15,23 @@
  /* ---------------social--links----------------------- */
   #social--links--con .wrapper ul li{
     margin-left:3rem;
-    
+  }
 
     /* ---------------------tabs---------------------- */
 
-    #tabs-con #tabs-text p{
-      width:90%;
+    #sub-list-con .wrapper ul{
+      position:absolute;
+      left:0;
+      margin:8rem 5rem;
     }
+   
 }
 
 #social--links--con .wrapper ul li i{
   font-size:2.5rem;
   color:#cccccc;
 }
-}
+
 
 @media only screen and (max-width: 840px){
   .heading--txt{
@@ -48,8 +51,22 @@
     width:calc(100% - 3rem)
   }
 
+  #sub-list-con .wrapper ul{
+    position:absolute;
+    left:0;
+    margin:5rem 5rem;
+  }
+
 }
 
+
+@media only screen and (max-width: 756px){
+  #sub-list-con .wrapper ul{
+    position:absolute;
+    left:0;
+    margin:3rem 5rem;
+  }
+}
 
 @media only screen and (max-width: 700px){
   h3{
@@ -97,8 +114,28 @@
   width:100%;
 }
 
-}
 
+/* -------------------sub--list------------------ */
+
+
+
+
+
+@media only screen and (max-width: 680px){
+  #sub-list-con .wrapper{
+    display:flex;
+   flex-direction:column;
+  }
+
+  #sub-list-con #su-list-con-txt {
+    margin-left:0;
+    margin-top:2rem;
+  }
+ 
+  #sub-list-con .wrapper ul{
+    margin:3rem 2rem;
+  }
+}
 
 
 @media only screen and (max-width: 375px){
@@ -114,3 +151,5 @@
 }
 
 }
+
+

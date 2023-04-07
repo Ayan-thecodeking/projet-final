@@ -224,3 +224,61 @@ main #form--con form button{
     align-items:center;
 }
 
+
+/* -----------sub-list-con------------------ */
+
+#sub-list-con{
+    padding:7rem 0;
+}
+
+#sub-list-con .wrapper{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#sub-list-con .wrapper #img-con {
+    display:flex;
+    align-items:center;
+    
+
+}
+ 
+#sub-list-con .wrapper #img-con img{
+    width:100%;
+    display:block;  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+#sub-list-con .wrapper ul li {
+    display:flex;
+    align-items:center
+}
+#sub-list-con .wrapper ul li i{
+    margin-right:2rem;
+    border:2px solid #ff9b51;
+    padding :1rem;
+    border-radius:50%;
+    color:#ff9b51;
+}
+#sub-list-con{
+    position:relative;
+}
+#sub-list-con #su-list-con-txt{
+   margin-left:5rem;
+ 
+}
+
+#sub-list-con #su-list-con-txt hr{
+    margin:3rem 0;
+    color:#ff9b51 !important;
+    width:30%;
+}
+
+#sub-list-con #su-list-con-txt li{
+    padding:2em 0;
+}
+
+#sub-list-con #su-list-con-txt li h5{
+    font-size:1.1rem;
+}

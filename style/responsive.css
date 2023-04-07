@@ -1,0 +1,116 @@
+
+
+
+@media only screen and (max-width: 920px){
+  main{
+    padding:5rem 0;
+  }
+  main .wrapper #img-and-txt {
+    width:55%;
+    height:100%;}
+  main #form--con{
+    width:40%
+  }
+
+ /* ---------------social--links----------------------- */
+  #social--links--con .wrapper ul li{
+    margin-left:3rem;
+    
+
+    /* ---------------------tabs---------------------- */
+
+    #tabs-con #tabs-text p{
+      width:90%;
+    }
+}
+
+#social--links--con .wrapper ul li i{
+  font-size:2.5rem;
+  color:#cccccc;
+}
+}
+
+@media only screen and (max-width: 840px){
+  .heading--txt{
+    font-size:2.7rem;
+  }
+  main .wrapper #img-and-txt figure{
+    display:none;
+  }
+
+
+  /* --------tabs--img--none--- */
+  #tabs-con #tabs-img {
+    display:none;
+  }
+
+  #tabs-con #tabs-text p{
+    width:calc(100% - 3rem)
+  }
+
+}
+
+
+@media only screen and (max-width: 700px){
+  h3{
+    font-size:1.8rem;
+  }
+  main{
+    height:100%;
+  }
+  header nav{
+    display:none;
+  }
+  main  .wrapper{
+    display:block;
+  }
+  main .wrapper #img-and-txt{
+    width:100%;
+  }
+  main #form--con {
+    width:100%;
+    margin:auto
+  }
+  main #form--con form #input-fields{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+  }
+  main #form--con form input{
+    margin:2rem ;
+  }
+
+/* ----------------social----links----------------- */
+#social--links--con .wrapper{
+  flex-direction:column;
+}
+#social--links--con .wrapper ul{
+    margin-top:2rem;
+}
+#social--links--con .wrapper ul li{
+  margin:0 1.5rem;
+  
+}
+#social--links--con .wrapper p{
+
+  width:100%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 375px){
+  h3{
+    font-size:1.6rem;
+  }
+  #social--links--con .wrapper ul li i{
+    font-size:2rem;
+}
+#social--links--con .wrapper ul li{
+  margin:0 1.2rem;
+  
+}
+
+}

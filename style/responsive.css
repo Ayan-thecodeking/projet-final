@@ -15,7 +15,10 @@
     margin-left: 3rem;
   }
 
-  /* ---------------------tabs---------------------- */
+  /* ---------------------why---------------------- */
+  #why-choose-us #Why-choose-us-features li h3{
+    font-size: 1.7rem;
+}
 }
 
 #social--links--con .wrapper ul li i {
@@ -74,6 +77,8 @@
     margin: 2rem;
   }
 
+
+
   /* ----------------social----links----------------- */
   #social--links--con .wrapper {
     flex-direction: column;
@@ -86,6 +91,20 @@
   }
   #social--links--con .wrapper p {
     width: 100%;
+  }
+
+
+ #why-choose-us .Why-choose-us-features-and-testimonials{
+    flex-direction:column;
+  }
+
+  #why-choose-us .Why-choose-us-features-and-testimonials li{
+    margin-bottom:3rem;
+    
+  }
+
+  #why-choose-us .Why-choose-us-features-and-testimonials li p{
+    width:100%;
   }
 }
 

@@ -101,11 +101,20 @@ header .nav-manu-bar .fa-bars {
 /* --------XXXXXXXXXX------end---header--------XXXXXXXXXX---------------- */
 
 /* ---------------------banner----section---------------- */
+
+
 main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("./images/banner.png");
   padding: 8rem 0;
 }
+
+/* main .wrapper{
+  background-image: url('path/to/image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} */
 
 main .wrapper {
   height: 100%;
@@ -336,6 +345,71 @@ main #form--con form button {
 #pricing-option{
   background-color:#f5f5f5
 }
+
+
+/* testimonials ---------------------- */
+
+.testi{
+  display: flex;
+  margin: 40px;
+  /* flex-wrap: wrap; */
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin: 30px;
+  /* padding: 20px; */
+}
+
+.testimonial-quote {
+  flex-basis: 60%;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  border-radius: 3%;
+}
+
+.quote {
+  font-style: italic;
+  width: 250px;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.testimonial-author {
+  flex-basis: 30%;
+  display: flex;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: -16px;
+
+}
+.testimonial-author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.author-designation {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+
 
 
 /* ------------------XXXXXXXXXXXXXXXXXXXXX------------------------- */
